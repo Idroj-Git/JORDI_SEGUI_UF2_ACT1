@@ -24,20 +24,52 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginBottom="100dp"/>
 
-
-    <Button
-        android:id="@+id/playButton_sound1"
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#58BD2D"
-        android:text="@string/startMarioWa" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/stopButton_sound1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#E34646"
-        android:text="@string/stopMarioWa" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!--Cada so té el seu propi LinearLayout per ordenar-ho millor-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:padding="10dp"
+                    android:text="@string/marioWa"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/playButton_sound1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#58BD2D"
+                    android:text="@string/startMarioWa" />
+
+                <Button
+                    android:id="@+id/stopButton_sound1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E34646"
+                    android:text="@string/stopMarioWa" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 
 
 </LinearLayout>
