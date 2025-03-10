@@ -35,6 +35,8 @@
             android:gravity="center">
 
             <!--Cada so té el seu propi LinearLayout per ordenar-ho millor-->
+
+            <!--WAH-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -50,21 +52,82 @@
                     android:textSize="20sp" />
 
                 <Button
-                    android:id="@+id/playButton_sound1"
+                    android:id="@+id/playButton_soundMario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#58BD2D"
-                    android:text="@string/startMarioWa" />
+                    android:text="@string/play" />
 
                 <Button
-                    android:id="@+id/stopButton_sound1"
+                    android:id="@+id/stopButton_soundMario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#E34646"
-                    android:text="@string/stopMarioWa" />
+                    android:text="@string/stop" />
 
             </LinearLayout>
 
+            <!--Doom-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:padding="10dp"
+                    android:text="@string/doomName"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/playButton_soundDoom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#58BD2D"
+                    android:text="@string/play" />
+
+                <Button
+                    android:id="@+id/stopButton_soundDoom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E34646"
+                    android:text="@string/stop" />
+
+            </LinearLayout>
+
+            <!--UP-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:padding="10dp"
+                    android:text="@string/upName"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/playButton_soundUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#58BD2D"
+                    android:text="@string/play" />
+
+                <Button
+                    android:id="@+id/stopButton_soundUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E34646"
+                    android:text="@string/stop" />
+
+            </LinearLayout>
         </LinearLayout>
 
 

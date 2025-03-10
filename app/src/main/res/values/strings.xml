@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">JORDI_SEGUI_UF2_ACT1</string>
     <string name="title">ACT1 - Asincronized Sounds</string>
+
     <string name="marioWa">Mario WAH</string>
-    <string name="startMarioWa">START</string>
-    <string name="stopMarioWa">STOP</string>
+
+    <string name="doomName">Happiness</string>
+
+    <string name="upName">DESTRUCTION</string>
+    <string name="play">PLAY</string>
+    <string name="stop">STOP</string>
 </resources>
